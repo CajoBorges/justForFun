@@ -1,0 +1,123 @@
+body {
+  margin: 25px;
+  
+}
+
+
+
+/* Título */
+
+h1 {
+    font-size: 30px;
+}
+
+
+
+/* Texto */
+
+p {
+  font-family: sans-serif;
+}
+
+
+
+/* Imagens */
+
+.imagens-pequenas {
+  weight: 100px;
+}
+
+.fundo-azul-transparencia {
+  background-color: rgba(0, 0, 100, 0.4);
+}
+
+
+
+/* Links */
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+
+
+/* FlexBox */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+/* Backgroud Color */
+.background {
+    background: white;
+}
+
+#btn {
+  margin: 10px;
+}
+
+.btnRed {
+  
+}
+
+.btnOrange {
+  
+}
+
+.btnYellow {
+  
+}
+
+.btnGreen {
+   
+}
+
+.btnBlue {
+  
+}
+
+
+
+/* Mensagem */
+.btn-alert {
+  background-color: #FFD700;
+}
+
+
+
+/* Quiz */
+
+#points {
+  background-color: mediumaquamarine;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* Lista */
+
+.x {
+  background-color: red;
+  color: white;
+  border: solid 1px red;
+}
+
+.btnA {
+  background-color: yellowgreen;
+  color: black;
+  border: solid 1px yellowgreen;
+}

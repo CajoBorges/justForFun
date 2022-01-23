@@ -1,0 +1,62 @@
+body {
+  background-color: #222222;
+  color: #c0c0c0;
+  margin: 25px;
+  font-family: Comic Sans MS;
+}
+
+.titulo {
+  color: skyblue;
+  text-align: center;
+   
+  }
+
+.subtitulo {
+  font-size: 20px;
+}
+
+.introducao {
+  padding-left: 10px;
+}
+
+table, th, td {
+      border:2px solid black;
+      border-collapse: collapse;
+      border-color: white;
+      text-align: center;
+     
+      
+    }
+
+table {
+   width:50%;
+}
+
+tr {
+  height:50px;
+}
+
+.tabela {
+  padding-left: 100px;
+}
+
+.lista {
+  padding-left: 10px;
+}
+
+#p1 {
+  font-style: italic;
+}
+
+#imagem {
+  padding-left: 10px;
+}
+
+#lista{
+  padding-left: 10px;
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}

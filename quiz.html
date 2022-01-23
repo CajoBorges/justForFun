@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon"
+    href="https://lh3.googleusercontent.com/-htyYS-IBWUE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmY8-E7TzVn1iGCk2TDA5c-rkrjWA/photo.jpg?sz=46">
+  <title>Carlos Borges</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  table,
+  th,
+  td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color: white;
+  }
+
+  body {
+    cursor: move;
+  }
+</style>
+
+<body style="font-family: Comic Sans MS; background-color: #222222; color: #dbd7d7">
+  <div class="inicio">
+    <header>
+      <div class="container">
+        <h1><img weight="30" height="30"
+            src="https://lh3.googleusercontent.com/-htyYS-IBWUE/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmY8-E7TzVn1iGCk2TDA5c-rkrjWA/photo.jpg?sz=46">
+          Carlos Borges</h1>
+        <p id="data" style="font-family: Monospace; padding-left: 45px"></p>
+        <p id="rato" style="font-family: Monospace; padding-left: 45px"></p>
+      </div>
+    </header>
+    <hr>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="newYork.html">✈️ Nova Iorque</a></li>
+        <li><a href="wait.html">🖥️ Página a Carregar</a></li>
+        <li><a href="quiz.html" style="cursor: help;">❓ Quiz</a></li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+
+  <h2>Quiz</h2>
+
+  <ol>
+    <li>Quanto é (-12) + (-2)?</li>
+    <button class="errado-AA">(-10)</button>
+    <button class="certo-A">(-14)</button>
+    <button class="errado-AB">(14)</button>
+    <button class="errado-AC">(10)</button>
+    <br><br>
+
+    <li>Quanto é 4/5 - 1/5?</li>
+    <button class="certo-B">3/5</button>
+    <button class="errado-BA">3/0</button>
+    <button class="errado-BB">5/5</button>
+    <button class="errado-BC">5</button>
+    <br><br>
+
+    <li>Quanto é (8) : (-8)?</li>
+    <button class="errado-CA">+1</button>
+    <button class="errado-CB">0</button>
+    <button class="certo-C">-1</button>
+    <br><br>
+
+    <li>Quanto é (+8) : (-2)?</li>
+    <button class="errado-DA">+4</button>
+    <button class="errado-DB">4</button>
+    <button class="certo-D">-4</button>
+    <br><br>
+
+    <li>Quanto é (-36) : (-9)?</li>
+    <button class="certo-E">+4</button>
+    <button class="errado-EB">-9</button>
+    <button class="errado-EC">-4</button>
+    <button class="errado-EA">3</button>
+    <br><br>
+
+    <li>Quanto é (-72) : (+8)?</li>
+    <form><input id="seis" type="text"><input id="submitSeis" type="submit" value="Verificar Resposta"></form>
+    <!-- -9 !--><br>
+
+    <li>Quanto é (-20) : (-10)?</li>
+    <form><input id="sete" type="text"><input id="submitSete" type="submit" value="Verificar Resposta"></form>
+    <!-- +2 !--><br>
+  </ol>
+  <div class="points">
+    <button id="points">Ver Pontuação</button>
+  </div>
+
+  <br>
+  <hr>
+  <footer style="font-size: 15px; ">
+    <div align="middle">
+      <br>
+      <span><strong>Created by Carlos Borges</strong></span>
+    </div>
+  </footer>
+  <script src="quiz.js"></script>
+</body>
+
+</html>
